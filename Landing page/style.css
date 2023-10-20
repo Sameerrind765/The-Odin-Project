@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Roboto&display=swap');
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*{
+    /* color: white; */
+    margin: 0; padding: 0;
+    /* font-family: 'Roboto', sans-serif; */
+}
+body {
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+                  /* Stylesheets for Nav Bar */
+nav{
+    color: white;
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+ul{ 
+    /* margin: 100px 0; */
+    display: flex;
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+}
+ul{
+    display: flexbox;
+}
+li{
+    list-style: none;
+    margin: 0 17vh 0 0;
+}
+.navli1{
+    margin: 0 120px 0 213px;
+    font-size: 23px;
+    font-weight: 900;
+}
+                  /* Stylesheets for Main */
+main{
+    flex: 1;
+    width: 100vw;
+    /* height: 100vh; */
+    color: white;
+    /* background-color: #1f2937; */
+}
+.main_container{
+    display: flex;
+    width: 77vw;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 233px; */
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    padding: 144px 233px;
+}
+.main_container_left{
+    height: 100%;
+    width: 50%;
+    align-content: start;
+    justify-content: center;
+}
+.main_container_right{
+    display: grid;
+    background-color: rgb(96, 122, 122);
+    height: 127%;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+    margin:42px 0 0 0;
+}
+.first_head{
+    display: flexbox;
+    font-family: 'Roboto', sans-serif;
+    font-size: 74px;
+}
+.main_para{
+   font-size: 31px;
+   font-family: 'Roboto', sans-serif;
+   margin-right: 126px;
+}
+button{
+    background-color: #3b82f6;
+    width: 178px;
+    height: 55px;
+    font-size: 27px;
+    border-radius: 11px;
+    font-family: 'Roboto', sans-serif;
+    margin: 16px 0px;
+}
+.img_space{
+    font-size: 26px;
+}
+                  /* Stylesheets for Random Boxes at Bottom */
+.random_boxes_head{
+    display: flexbox;
+    background-color: white;
+    color: black;
+    margin: auto;
+    width: 100vw;
+    padding: 64px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}                  
+.random_boxes_container{
+    display: flex;
+    color: black;
+    background-color: #ffffff;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-around;
+    padding: 0 350px;
+}
+.box{
+    display: flexbox;
+    /* background-color: #4085f6; */
+    width: 250px;
+    height: 250px;
+    border: 8px solid #4085f6;
+    border-radius: 20px;   
+}
+.text_outside_box{
+    display: flexbox;
+    /* background-color: aqua; */
+    width: 250px;
+    height: 250px;
+    font-size: 27px;
+    color: #71767c;
+    text-align: center;
+    /* border: 2px solid black; */
+    /* border-radius: 20px;    */
+}
+.quote{
+    width: 100vw;
+    /* height: 30vh; */
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: auto;
+    font-family: 'Raleway', sans-serif;
+}
+.quotepara{
+    text-align: left;
+    padding: 97px 474px;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 550;
+}
+.author{
+    text-align: right;
+}
+.blue_alert{
+    display: flex;
+    width: 60vw;
+    height: 3vh;
+    background-color: #3b82f6;
+    text-align: center;
+    margin: 68px auto;
+    border-radius: 21px;
+    padding: 94px 0;
+    box-sizing: border-box;
+}
+.blue_alert h2{
+    font-size: 28px;
+}
+/* footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+} */
+footer {
+        justify-content:start;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+        background-color: #1f2937;
+        color: white;
+        padding: 63px 0px;
+        font-size: 28px;
+}
